@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Home | Saketh{% endblock %}
+{% block content %}
+<section class="hero-section">
+  <div class="hero-left">
+    <h1>Hello,<br><strong>Saketh Reddy Sadu</strong> 👋</h1>
+
+    <p class="intro">
+      I'm a Cloud & DevOps Engineer with <strong>2 years of hands-on experience</strong> in designing and deploying secure, scalable cloud infrastructure.
+      I've worked with companies to automate systems, reduce downtime, and streamline operations using AWS services.
+    </p>
+
+    <p class="intro">
+      My core strengths include <strong>Terraform, Python, Docker</strong>, and continuous integration workflows with GitHub Actions and Jenkins.
+      I enjoy solving real-world problems with smart, cloud-native solutions.
+    </p>
+
+    <p class="intro">
+      Whether it's building from the ground up or improving existing systems,
+      I focus on creating reliable platforms that deliver real business value. ⚡
+    </p>
+
+
+  <div class="social-buttons">
+    <a href="https://linkedin.com/in/saketh" target="_blank">LinkedIn</a>
+    <a href="mailto:sakethsadu@gmail.com">Email</a>
+    <a href="https://github.com/saketh" target="_blank">GitHub</a>
+  </div>
+  </div>
+  
+
+  <div class="hero-right">
+    <img src="{{ url_for('static', filename='images/your_photo.jpeg') }}" alt="Saketh">
+  </div>
+</section>
+{% endblock %}
