@@ -96,12 +96,14 @@ html, body {
   }
   
   .hero-right img {
-    width: 320px;
-    height: 320px;
-    object-fit: cover;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
     border-radius: 24px;
+    object-fit: cover;
     box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
   }
+  
   
   
   /* === SOCIAL BUTTONS === */
